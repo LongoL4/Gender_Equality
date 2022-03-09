@@ -45,7 +45,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    this.obsGeoData = this.http.get<Object[]>("https://5000-longol4-genderequality-c7a6dn1cdbd.ws-eu34.gitpod.io/economy");
+    this.obsGeoData = this.http.get<Object[]>("https://5000-longol4-genderequality-e528f2afj7b.ws-eu34.gitpod.io/economy");
     this.obsGeoData.subscribe(this.prepareData);
   }
 
